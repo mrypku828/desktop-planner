@@ -1,0 +1,21 @@
+********* Start testing of PlannerTests *********
+Config: Using QtTest library 6.11.1, Qt 6.11.1 (x86_64-little_endian-llp64 shared (dynamic) release build; by GCC 13.1.0), windows 11
+PASS   : PlannerTests::initTestCase()
+PASS   : PlannerTests::todoPersistenceAndValidation()
+PASS   : PlannerTests::sortFilterAndLocalToday()
+PASS   : PlannerTests::notesPersistenceSearchDelete()
+PASS   : PlannerTests::reminderLifecycleAndRestart()
+PASS   : PlannerTests::storageErrorsAndFutureSchema()
+PASS   : PlannerTests::settingsPersistence()
+PASS   : PlannerTests::notesAutosaveAndSwitch()
+PASS   : PlannerTests::sharedWidgetAndTaskPage()
+PASS   : PlannerTests::dialogAndMainWindowSmoke()
+PASS   : PlannerTests::todoUiCreateEditDeleteConfirmation()
+PASS   : PlannerTests::notesDeleteConfirmationAndFailedSave()
+PASS   : PlannerTests::migrateVersionOneWithoutDataLoss()
+PASS   : PlannerTests::calendarDatesAndDeadlinePersistence()
+PASS   : PlannerTests::calendarClickCreatesSelectedDayTask()
+PASS   : PlannerTests::deadlineEditorAndThemePersistence()
+PASS   : PlannerTests::cleanupTestCase()
+Totals: 17 passed, 0 failed, 0 skipped, 0 blacklisted, 3989ms
+********* Finished testing of PlannerTests *********

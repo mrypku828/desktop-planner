@@ -1,0 +1,41 @@
+********* Start testing of PlannerTests *********
+Config: Using QtTest library 6.11.1, Qt 6.11.1 (x86_64-little_endian-llp64 shared (dynamic) release build; by GCC 13.1.0), windows 11
+PASS   : PlannerTests::initTestCase()
+PASS   : PlannerTests::todoPersistenceAndValidation()
+PASS   : PlannerTests::sortFilterAndLocalToday()
+PASS   : PlannerTests::notesPersistenceSearchDelete()
+PASS   : PlannerTests::reminderLifecycleAndRestart()
+PASS   : PlannerTests::storageErrorsAndFutureSchema()
+PASS   : PlannerTests::settingsPersistence()
+QWARN  : PlannerTests::notesAutosaveAndSwitch() QFontDatabase: Cannot find font directory D:/qt/6.11.1/mingw_64/lib/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QWARN  : PlannerTests::notesAutosaveAndSwitch() This plugin does not support propagateSizeHints()
+QWARN  : PlannerTests::notesAutosaveAndSwitch() This plugin does not support propagateSizeHints()
+PASS   : PlannerTests::notesAutosaveAndSwitch()
+QWARN  : PlannerTests::sharedWidgetAndTaskPage() This plugin does not support propagateSizeHints()
+QWARN  : PlannerTests::sharedWidgetAndTaskPage() This plugin does not support propagateSizeHints()
+PASS   : PlannerTests::sharedWidgetAndTaskPage()
+PASS   : PlannerTests::dialogAndMainWindowSmoke()
+QWARN  : PlannerTests::todoUiCreateEditDeleteConfirmation() This plugin does not support propagateSizeHints()
+QWARN  : PlannerTests::todoUiCreateEditDeleteConfirmation() This plugin does not support propagateSizeHints()
+QWARN  : PlannerTests::todoUiCreateEditDeleteConfirmation() This plugin does not support propagateSizeHints()
+QWARN  : PlannerTests::todoUiCreateEditDeleteConfirmation() This plugin does not support propagateSizeHints()
+QWARN  : PlannerTests::todoUiCreateEditDeleteConfirmation() This plugin does not support propagateSizeHints()
+QWARN  : PlannerTests::todoUiCreateEditDeleteConfirmation() This plugin does not support propagateSizeHints()
+PASS   : PlannerTests::todoUiCreateEditDeleteConfirmation()
+QWARN  : PlannerTests::notesDeleteConfirmationAndFailedSave() This plugin does not support propagateSizeHints()
+QWARN  : PlannerTests::notesDeleteConfirmationAndFailedSave() This plugin does not support propagateSizeHints()
+QWARN  : PlannerTests::notesDeleteConfirmationAndFailedSave() This plugin does not support propagateSizeHints()
+QWARN  : PlannerTests::notesDeleteConfirmationAndFailedSave() This plugin does not support propagateSizeHints()
+PASS   : PlannerTests::notesDeleteConfirmationAndFailedSave()
+PASS   : PlannerTests::migrateVersionOneWithoutDataLoss()
+PASS   : PlannerTests::calendarDatesAndDeadlinePersistence()
+QWARN  : PlannerTests::calendarClickCreatesSelectedDayTask() This plugin does not support propagateSizeHints()
+QWARN  : PlannerTests::calendarClickCreatesSelectedDayTask() This plugin does not support propagateSizeHints()
+QWARN  : PlannerTests::calendarClickCreatesSelectedDayTask() This plugin does not support propagateSizeHints()
+PASS   : PlannerTests::calendarClickCreatesSelectedDayTask()
+QWARN  : PlannerTests::deadlineEditorAndThemePersistence() This plugin does not support setting window opacity
+PASS   : PlannerTests::deadlineEditorAndThemePersistence()
+PASS   : PlannerTests::cleanupTestCase()
+Totals: 17 passed, 0 failed, 0 skipped, 0 blacklisted, 2316ms
+********* Finished testing of PlannerTests *********

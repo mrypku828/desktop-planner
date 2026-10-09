@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug DesktopPlanner (MinGW x64)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${command:cmake.launchTargetPath}",
+            "cwd": "${workspaceFolder}",
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:/qt/Tools/mingw1310_64/bin/gdb.exe",
+            "environment": [
+                {
+                    "name": "PATH",
+                    "value": "D:/qt/Tools/mingw1310_64/bin;D:/qt/6.11.1/mingw_64/bin;${env:PATH}"
+                }
+            ],
+            "externalConsole": false
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "cmake.generator": "Ninja",
+    "cmake.buildDirectory": "${env:LOCALAPPDATA}/DesktopPlannerBuild",
+    "cmake.configureSettings": {
+        "CMAKE_PREFIX_PATH": "D:/qt/6.11.1/mingw_64",
+        "CMAKE_CXX_COMPILER": "D:/qt/Tools/mingw1310_64/bin/g++.exe",
+        "CMAKE_MAKE_PROGRAM": "D:/qt/Tools/Ninja/ninja.exe"
+    },
+    "cmake.environment": {
+        "PATH": "D:/qt/Tools/mingw1310_64/bin;D:/qt/6.11.1/mingw_64/bin;${env:PATH}"
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "files.encoding": "utf8"
+}
