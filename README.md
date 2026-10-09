@@ -1,8 +1,13 @@
 # 桌面计划 Desktop Planner — Windows V1.1.1
+
 个人任务与随手记管理软件。C++17 / Qt 6 Widgets / Qt SQL SQLite / CMake。
 源码可读、离线使用、无额外第三方业务依赖。当前仅 Windows 版本，不含移动端和云同步。
 
+![计划日历预览](docs/screenshots/v1.1.1/main-window.png)
+
 ## 直接运行
+
+从 [GitHub Releases](https://github.com/mrypku828/desktop-planner/releases/tag/v1.1.1) 下载 `DesktopPlanner-v1.1.1-windows-x64.zip`，解压后运行程序。源码仓库不包含 Qt DLL 和编译产物。
 
 发布目录为 `dist/DesktopPlanner-v1.1.1`，双击其中的 `DesktopPlanner.exe`。
 必须保留同目录的 DLL、`platforms`、`sqldrivers` 和 `translations`，不能只复制 exe。
